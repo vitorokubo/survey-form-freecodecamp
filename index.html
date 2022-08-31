@@ -8,61 +8,65 @@
     <body>
       <div class="wrapper">
 <header>
-<h1 id="title">freeCodeCamp Survey Form</h1>
-<p id="description">Thank you for taking the time to help us improve the platform</p>
+<h1 id="title">CodePlatform Formulário de Pesquisa</h1>
+<p id="description">Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma/p>
 </header>
 
 
 <div class="form">
 <form id="survey-form" class="survey-form">
   <div class="pessoalinfo">
-  <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required></label>
+  <label id="name-label">Nome<input id="name" type="text" placeholder="Enter your name" required></label>
   <label id="email-label">E-mail<input id="email" placeholder="Enter your Email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
-  <label id="number-label">Age<input id="number" placeholder=Age type="number" pattern="[0-9]+" min="12" max="120"> </label>
+  <label id="number-label">Idade<input id="number" placeholder=Age type="number" pattern="[0-9]+" min="12" max="120"> </label>
   <label>
     </div>
-    <p>Which option best describes your current role?</p>
+    <p>
+      Qual opção melhor descreve sua função atual?</p>
     <select id="dropdown" required>
-      <option disabled selected value>Select an option</option>
-      <option value="student">Student</option>
-      <option value="job">Full Time Job</option>
-      <option value="learner">Full Time Learner</option>
-      <option value="preferNo">Prefer not to say</option>
-      <option value="other">Other</option>
+      <option disabled selected value>Selecione uma opção</option>
+      <option value="student">Estudante</option>
+      <option value="job">Trabalho em tempo integral</option>
+      <option value="learner">Aprendiz em tempo integral</option>
+      <option value="preferNo">Prefere não dizer</option>
+      <option value="other">Outro</option>
       </select>
   </label>
-  <p>Would you recommend freeCodeCamp to a friend?</p>
-   <label><input type="radio" name="recommend-type" value="definitely">Definitely</label>
-  <label><input type="radio" name="recommend-type" value="maybe">Maybe</label>
-    <label><input type="radio" name="recommend-type" value="notsure">Not sure</label>
-    <p>What is your favorite feature of freeCodeCamp?</p>
+  <p>
+    Você recomendaria a CodePlatform a um amigo?</p>
+   <label><input type="radio" name="recommend-type" value="definitely">Com certeza</label>
+  <label><input type="radio" name="recommend-type" value="maybe">Talvez</label>
+    <label><input type="radio" name="recommend-type" value="notsure">Não sei</label>
+    <p>Qual é o seu recurso favorito da CodePlatform?</p>
     <select>
-      <option disabled selected value>Select an option</option>
-      <option value="challenges">Challenges</option>
-      <option value="projects">Projects</option>
-      <option value="community">Community</option>
-      <option "opensource">Open Source</option>
+      <option disabled selected value>Selecione uma opção</option>
+      <option value="challenges">Desafios</option>
+      <option value="projects">Projetos</option>
+      <option value="community">Comunidade</option>
+      <option value="opensource">Código Aberto</option>
       </select>
 
-  <p>What would you like to see improved? (Check all that apply)</p>
+  <p>
+    O que você gostaria de ver melhorado? (Marque todos os que se aplicam)</p>
   <div class="checkbox">
-  <label><input id="" type="checkbox" value="frontend">Front-end Projects</label>
-  <label><input id="" type="checkbox" value="backend">Back-end Projects</label>
-  <label><input id="" type="checkbox" value="data">Data Visualization</label>
-  <label><input id="" type="checkbox" value="challenges">Challenges</label>
-  <label><input id="" type="checkbox" value ="opensource">Open Source Community</label>
-  <label><input id="" type="checkbox" value="help">Gitter help rooms</label>
-  <label><input id="" type="checkbox" value="videos">Videos</label>
-  <label><input id="" type="checkbox" value="meetups">City Meetups</label>
-  <label><input id="" type="checkbox" value="wiki">Wiki</label>
-  <label><input id="" type="checkbox" value="forum">Forum</label>
-  <label><input id="" type="checkbox" value="additionalcourses">Additional Courses</label>  
+  <label><input id="front" type="checkbox" value="frontend">Projetos Front-End</label>
+  <label><input id="back" type="checkbox" value="backend">Projetos Back-End</label>
+  <label><input id="data" type="checkbox" value="data">Visualização de Dados</label>
+  <label><input id="challenge" type="checkbox" value="challenges">Desafios</label>
+  <label><input id="opensource" type="checkbox" value ="opensource">Comunidade Código Aberto</label>
+  <label><input id="helproom" type="checkbox" value="help">Salas de ajuda</label>
+  <label><input id="videos" type="checkbox" value="videos">Videos</label>
+  <label><input id="citymeetup" type="checkbox" value="meetups">Encontro de Cidades</label>
+  <label><input id="wiki" type="checkbox" value="wiki">Wiki</label>
+  <label><input id="forum" type="checkbox" value="forum">Forum</label>
+  <label><input id="addcourses" type="checkbox" value="additionalcourses">Curso Adicionais</label>  
   </div>
   <div class="comments">
-<p>Any comments or suggestions?</p> 
-<textarea placeholder="Enter your comment here..."></textarea>
+<p>
+  Quaisquer comentários ou sugestões?</p> 
+<textarea placeholder="Digite seu comentário aqui..."></textarea>
 </div>
- <button id="submit" type="submit">Submit</button>
+ <button id="submit" type="submit">Enviar</button>
   </form>
 </div>
 </div>
